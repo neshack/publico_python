@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<title>Lista de Cuentas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>::Neshack::</h1>
+	<h2>Cuentas de Hosting</h2>
+	{% for elemento in lista %}
+	<ul>
+		<li><strong>{{elemento.cue_nombre}}</strong></li>		
+	</ul>
+	{% endfor %}
+</body>
+</html>
